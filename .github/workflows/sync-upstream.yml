@@ -18,7 +18,7 @@ jobs:
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git remote add upstream https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension.git
+          git remote add upstream https://github.com/SaurabhKaperwan/CSX
           git fetch upstream
           git merge upstream/master --allow-unrelated-histories -m "Sync upstream"
           git push origin master
