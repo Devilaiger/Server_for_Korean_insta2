@@ -1,0 +1,158 @@
+[
+    {
+        "url": "https://raw.githubusercontent.com/Devilaiger/Server_for_Korean_insta2/builds/Bollyflix.cs3",
+        "status": 1,
+        "version": 33,
+        "name": "Bollyflix",
+        "internalName": "Bollyflix",
+        "authors": [
+            "megix"
+        ],
+        "description": "Movies and Series upto 4K",
+        "fileSize": 38084,
+        "repositoryUrl": "https://github.com/Devilaiger/Server_for_Korean_insta2",
+        "language": "hi",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "AsianDrama",
+            "Anime"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/refs/heads/master/Bollyflix/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-021d197755969ecbf49dc3244e040e7db45279a20e78ec75ca884ed73207281b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Devilaiger/Server_for_Korean_insta2/builds/CineStream.cs3",
+        "status": 1,
+        "version": 464,
+        "name": "CineStream",
+        "internalName": "CineStream",
+        "authors": [
+            "megix"
+        ],
+        "description": "One stop solution for Movies, Series, Anime, AsianDrama and Torrents",
+        "fileSize": 704579,
+        "repositoryUrl": "https://github.com/Devilaiger/Server_for_Korean_insta2",
+        "language": "en",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "AsianDrama",
+            "Anime",
+            "Torrent"
+        ],
+        "iconUrl": "https://github.com/SaurabhKaperwan/CSX/raw/refs/heads/master/CineStream/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-b778f18597b79a299dad621a46e285b6ba2ef137bff51cd05193848936d296ac"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Devilaiger/Server_for_Korean_insta2/builds/GDIndex.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "GDIndex",
+        "internalName": "GDIndex",
+        "authors": [
+            "Horis"
+        ],
+        "fileSize": 18210,
+        "repositoryUrl": "https://github.com/Devilaiger/Server_for_Korean_insta2",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://github.com/SaurabhKaperwan/CSX/raw/refs/heads/master/GDIndex/icon.ico",
+        "apiVersion": 1,
+        "fileHash": "sha256-6ec3b199d90c49654bf9f6105d5add7f94194e542d8c1c8d60a6d50ef49657d1"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Devilaiger/Server_for_Korean_insta2/builds/MoviesDrive.cs3",
+        "status": 1,
+        "version": 33,
+        "name": "MoviesDrive",
+        "internalName": "MoviesDrive",
+        "authors": [
+            "megix"
+        ],
+        "description": "High Quality Movies and TV Shows",
+        "fileSize": 47240,
+        "repositoryUrl": "https://github.com/Devilaiger/Server_for_Korean_insta2",
+        "language": "hi",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "AsianDrama",
+            "Anime"
+        ],
+        "iconUrl": "https://github.com/SaurabhKaperwan/CSX/raw/refs/heads/master/MoviesDrive/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-1df925474923fe702d93c0c9f60a3fe06329f683870827bb2b81b9be2ff092f0"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Devilaiger/Server_for_Korean_insta2/builds/Moviesmod.cs3",
+        "status": 1,
+        "version": 32,
+        "name": "Moviesmod",
+        "internalName": "Moviesmod",
+        "authors": [
+            "megix"
+        ],
+        "description": "Includes Topmovies",
+        "fileSize": 44330,
+        "repositoryUrl": "https://github.com/Devilaiger/Server_for_Korean_insta2",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "AsianDrama",
+            "Anime"
+        ],
+        "iconUrl": "https://github.com/SaurabhKaperwan/CSX/raw/refs/heads/master/Moviesmod/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-f5917262f1a39b342f08e4724010ca81e20858adfbdcef6b4dbe9db3d0ac54db"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Devilaiger/Server_for_Korean_insta2/builds/OnlineMoviesHinditProvider.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "OnlineMoviesHinditProvider",
+        "internalName": "OnlineMoviesHinditProvider",
+        "authors": [
+            "megix"
+        ],
+        "description": "Use VPN",
+        "fileSize": 11950,
+        "repositoryUrl": "https://github.com/Devilaiger/Server_for_Korean_insta2",
+        "language": "hi",
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/master/OnlineMoviesHinditProvider/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-577919ca8bbf01ded9e9299851431447c5964e979a9c4eb73ffd82ca8733ae2d"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Devilaiger/Server_for_Korean_insta2/builds/VegaMovies.cs3",
+        "status": 1,
+        "version": 82,
+        "name": "VegaMovies",
+        "internalName": "VegaMovies",
+        "authors": [
+            "megix"
+        ],
+        "description": "Includes LuxMovies, Rogmovies",
+        "fileSize": 41501,
+        "repositoryUrl": "https://github.com/Devilaiger/Server_for_Korean_insta2",
+        "language": "hi",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "AsianDrama",
+            "Anime"
+        ],
+        "iconUrl": "https://github.com/SaurabhKaperwan/CSX/raw/refs/heads/master/VegaMovies/icon.jpg",
+        "apiVersion": 1,
+        "fileHash": "sha256-e08d25f7e9415ba6c414fad45219968e031e735a74a55b3a00216dddd4ff9d3b"
+    }
+]
