@@ -4404,6 +4404,45 @@ object CineStreamExtractors {
         }
     }
 
+    suspend fun invokeMkvbase(
+        title: String? = null,
+        year: Int? = null,
+        season: Int? = null,
+        episode: Int? = null,
+        subtitleCallback: (SubtitleFile) -> Unit,
+        callback: (ExtractorLink) -> Unit
+    ) {
+        val (seasonSlug, episodeSlug) = getEpisodeSlug(season, episode)
+
+        val query = if(season == null) "$title $year" else "$title S${seasonSlug}E${episodeSlug}"
+
+        val headers = mapOf(
+            "referer" to "mkvBaseAPI/",
+            "x-requested-with" to "XMLHttpRequest"
+        )
+
+         val response = app.get(
+            "$mkvBaseAPI/api/links?q=$query",
+            headers = headers
+        ).parsedSafe<MkvBaseResponse>() ?: return
+
+        response.results?.safeAmap { item ->
+            if (item?.url.isNullOrEmpty()) {
+                return@safeAmap null
+            }
+
+            loadSourceNameExtractor(
+                "MkvBase",
+                item.url!!,
+                "",
+                subtitleCallback,
+                callback
+            )
+            // Return dummy value (safeAmap expects B?, not Unit)
+            true
+        }
+    }
+
     suspend fun invokeAnidb(
         title: String? = null,
         year: Int? = null,
